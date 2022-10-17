@@ -8,3 +8,5 @@ class PostModelSerializer(ModelSerializer):
     class Meta:
         model = Post
         exclude = ('created_at', 'updated_at')
+
+# and here

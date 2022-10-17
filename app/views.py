@@ -12,3 +12,4 @@ class PostModelViewSet(ModelViewSet):
     serializer_class = PostModelSerializer
     parser_classes = [MultiPartParser]
 
+# write the comment view-set
